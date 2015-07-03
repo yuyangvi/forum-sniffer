@@ -1,0 +1,17 @@
+{
+	"siteCfg": {
+		"url": "http://bbs.pediy.com/forumdisplay.php?f=4",
+		"list": "#threadbits_forum_4 tr:nth-last-child(-n+32)",
+		"name": "pediy"
+	},
+	"rules": {
+		"title": "td:nth-child(3)>div>a",
+		"author": "td:nth-child(5) .smallfont",
+		"createTime": "td:nth-child(5) font",
+		"link": "td:nth-child(3)>div>a@href"
+	},
+	"page": {
+		"next":".pagenav a[rel=next]",
+		"maxPage": 3
+	}
+}

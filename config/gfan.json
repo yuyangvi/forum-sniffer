@@ -1,0 +1,18 @@
+{
+	"siteCfg": {
+		"url": "http://bbs.gfan.com/forum.php?mod=forumdisplay&fid=62&filter=author&orderby=dateline",
+		"list": "#moderate table tbody:nth-last-child(-n+50)",
+		"name": "gfan",
+		"idReg": "/android-(\\d+)/"
+	},
+	"rules": {
+		"title": ".xst",
+		"author": ".by cite",
+		"createTime": ".by em",
+		"link": ".xst@href"
+	},
+	"page": {
+		"next":".nxt",
+		"maxPage": 5
+	}
+}

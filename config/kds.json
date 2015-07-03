@@ -1,0 +1,17 @@
+{
+	"siteCfg": {
+		"url": "http://www.kdslife.com/forum_1_15___b_md.html",
+		"list": "#mytopics li:nth-last-child(-n+80)",
+		"name": "kdslife"
+	},
+	"rules": {
+		"title": ".n3 a",
+		"author": ".n5",
+		"createTime": ".n6",
+		"link": ".n3@href"
+	},
+	"page": {
+		"next":".nxt",
+		"maxPage": 5
+	}
+}
